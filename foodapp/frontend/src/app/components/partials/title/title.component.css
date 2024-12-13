@@ -1,0 +1,28 @@
+h2 {
+  margin: 0; /* Remove default margin */
+  font-size: 2rem; /* Default font size */
+  color: #2c3e50; /* Professional dark gray color */
+  font-weight: 600; /* Slightly bold for readability */
+  line-height: 1.3; /* Comfortable line height */
+  text-align: center; /* Center align the text */
+  letter-spacing: 0.5px; /* Slight letter-spacing for clarity */
+  font-family: 'Arial', sans-serif; /* Clean and modern font */
+  transition: all 0.3s ease-in-out; /* Smooth transition for any changes */
+}
+
+h2:hover {
+  color: #34495e; /* Darker shade for hover effect */
+  transform: translateY(-3px); /* Subtle lift on hover */
+}
+
+h2:focus {
+  outline: none; /* Remove outline on focus */
+  border-bottom: 2px solid #3498db; /* Subtle underline on focus */
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+    text-align: left; /* Align left for better mobile view */
+  }
+}
