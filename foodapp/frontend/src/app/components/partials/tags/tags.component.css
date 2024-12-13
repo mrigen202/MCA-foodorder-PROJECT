@@ -1,0 +1,45 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem; /* Adds consistent spacing between items */
+    padding: 1rem; /* Adds padding around the container */
+  }
+
+  div a {
+    background-color: #f9f9f9; /* Slightly lighter background for a cleaner look */
+    padding: 0.5rem 1rem; /* Increased padding for better click targets */
+    margin: 0.2rem; /* Simplified margin */
+    border-radius: 2rem; /* Softer rounded corners */
+    font-weight: 600;
+    font-size: 0.9rem; /* Slightly larger font for better readability */
+    color: #007bff; /* A softer, modern blue color */
+    text-decoration: none; /* Removes underlines for cleaner links */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a light shadow for depth */
+    transition: background-color 0.3s, color 0.3s, transform 0.2s; /* Smooth transitions for interactivity */
+  }
+
+  div a:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* White text on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+
+  div a:active {
+    transform: translateY(0); /* Resets lift effect on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Subtle shadow on click */
+  }
+
+  @media (max-width: 600px) {
+    div {
+      gap: 0.3rem; /* Reduces spacing for smaller screens */
+      padding: 0.5rem; /* Adjusts padding for narrow devices */
+    }
+
+    div a {
+      font-size: 0.8rem; /* Slightly smaller font for narrow screens */
+      padding: 0.4rem 0.8rem; /* Adjusts padding for smaller buttons */
+    }
+  }
+

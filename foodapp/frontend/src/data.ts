@@ -1,4 +1,5 @@
 import { Food } from "./app/shared/models/food";
+import { Tag } from "./app/shared/models/Tag";
 
 
 export const sample_foods:Food[]=[
@@ -312,4 +313,15 @@ export const sample_foods:Food[]=[
         tags: ['Non-Veg','Dinner'],
       }
 
+]
+
+export const sample_tags:Tag[] = [
+
+  {name:'All', count: 28},
+  {name:'Veg', count: 5},
+  {name:'Non-Veg', count: 6},
+  {name:'Sweet dish', count: 5},
+  {name:'Lunch', count: 19},
+  {name:'Dinner', count: 7},
+  {name:'FastFood', count: 6}
 ]
