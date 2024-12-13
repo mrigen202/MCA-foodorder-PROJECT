@@ -50,7 +50,7 @@ export const sample_foods:Food[]=[
       },
       {
         id:'5',
-        name: 'Chicken Soup',
+        name: 'Yougart Soup',
         price: 70,
         CookTime: '40-50',
         favorite: false,
