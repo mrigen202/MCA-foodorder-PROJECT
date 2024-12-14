@@ -72,7 +72,7 @@ export const sample_foods:Food[]=[
       },
       {
         id:'7',
-        name: 'Spicy Cheese Burger',
+        name: 'Paneer Tika',
         price: 150,
         CookTime: '20-30',
         favorite: false,
