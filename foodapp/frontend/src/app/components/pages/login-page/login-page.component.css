@@ -1,0 +1,113 @@
+/* General Styles */
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: rgba(255, 240, 245, 0.85);
+  backdrop-filter: blur(8px);
+}
+
+.details {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 25px 35px;
+  width: 100%;
+  max-width: 380px;
+  box-sizing: border-box;
+  border: 2px solid #ffcccb;
+}
+
+/* Title */
+app-title {
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ff69b4;
+}
+
+/* Input Container */
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ff1493;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffc0cb;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-container input:focus {
+  border-color: #ff69b4;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.5);
+}
+
+/* Error Messages */
+.error-list {
+  margin-top: 5px;
+  color: #e57373;
+  font-size: 0.85rem;
+}
+
+.error-list div {
+  margin-bottom: 5px;
+}
+
+/* Button */
+.button {
+  text-align: center;
+}
+
+.button button {
+  background-color: #ff69b4;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button button:hover {
+  background-color: #ff1493;
+}
+
+.button button:active {
+  background-color: #c71585;
+  transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .details {
+    padding: 20px 25px;
+  }
+
+  app-title {
+    font-size: 1.5rem;
+  }
+
+  .button button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
